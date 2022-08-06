@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-weight: 400;
+}
+body{
+    margin: 0 auto;
+    background-color: hsl(240, 5%, 95%);
+    padding: 10px 10px;
+}
+
+h1{
+    font-size: 35px;
+}
+.section{
+    border: hsl(240, 5%, 85%) 3px solid;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2em;
+    box-shadow: 10px 8px 50px hsl(240, 5%, 75%);
+    
+}
+.section h2{
+    padding-left: .5em;
+    font-weight: 600;
+    font-size: 32px;
+}
+.swatch{
+    display: inline-block;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 10px 10px 40px;
+    box-shadow: 10px 8px 10px hsl(240, 5%, 80%);
+}
+h3{
+    padding-left: .5em;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+.swatch p{
+    padding-left: .5em;
+    font-family: "Space Mono";
+}
+.cream{
+    background-color: #F4F1DE;
+}
+.burntorange{
+    background-color: #E07A5F;
+}
+.cruisenavy{
+    background-color: #3D405B;
+    color: hsl(240, 25%, 95%);
+}
+.mintteal{
+    background-color: #81B29A;
+}
+.maize{
+    background-color: #F2CC8f;
+}
+.text{
+    display: inline-block;
+    margin: 0px 50px 40px;
+    text-align: center;
+}
+.raleway h3{
+    font-weight: 600;
+    padding-left: 0;
+    text-decoration: underline;
+}
+.space h3{
+    font-weight: 600;
+    font-family: "Space Mono";
+    padding-left: 0;
+    text-decoration: underline;
+    line-height: -20;
+
+}
+.space .ls{
+    font-family: "Space Mono";
+    line-height: -20px;
+}
+.bold{
+    font-weight: 700;
+}
+.italic{
+    font-style: italic;
+}
+.style h3{
+    text-decoration: underline;
+    padding-left: 0;
+    font-weight: 600;
+}
+.section hr{
+    width: 400px;
+    margin-right: 70%;
+    
+}
